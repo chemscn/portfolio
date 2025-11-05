@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Phone } from "lucide-react";
+import { Mail, Linkedin, Phone, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/profile-photo.jpg";
 
@@ -52,6 +52,18 @@ const Hero = () => {
               <a href="mailto:drkarm123@gmail.com">
                 <Mail className="w-5 h-5" />
                 Get in Touch
+              </a>
+            </Button>
+            
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="gap-2 border-2"
+              asChild
+            >
+              <a href="/resume.pdf" download="Diyar_Karim_Resume.pdf">
+                <Download className="w-5 h-5" />
+                Download Resume
               </a>
             </Button>
             
