@@ -17,7 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -33,12 +32,10 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # ✅ Upload the *contents* of the dist folder (not the folder itself)
       - name: Upload built site
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist/
-          if-no-files-found: error
 
   deploy:
     environment:
