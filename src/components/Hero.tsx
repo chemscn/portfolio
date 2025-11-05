@@ -30,7 +30,7 @@ const Hero = () => {
 
         <div className="text-center">
           <div className="inline-block mb-6 px-6 py-2 bg-secondary/10 border border-secondary/20">
-            <span className="text-secondary font-semibold tracking-wide">FRONTEND ENGINEERING MANAGER</span>
+            <span className="text-secondary font-semibold tracking-wide">SENIOR FRONTEND ENGINEERING MANAGER</span>
           </div>
         
           <h1 className="font-display text-6xl md:text-8xl font-bold mb-6 tracking-tight">
@@ -67,7 +67,6 @@ const Hero = () => {
               </a>
             </Button>
           </div>
-
           <div className="flex items-center justify-center gap-2 text-muted-foreground">
             <Phone className="w-4 h-4" />
             <span>(412) 607-3932</span>

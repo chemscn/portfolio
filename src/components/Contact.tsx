@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
           <Button 
             size="lg"
-            className="gap-2 bg-secondary hover:bg-secondary/90 text-secondary-foreground w-full sm:w-auto"
+            className="gap-2 text-primary bg-secondary hover:bg-secondary/90 w-full sm:w-auto"
             asChild
           >
             <a href="mailto:drkarm123@gmail.com">

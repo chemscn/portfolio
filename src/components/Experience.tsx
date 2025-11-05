@@ -59,7 +59,7 @@ const Experience = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center gap-4 mb-16">
           <div className="w-16 h-16 bg-secondary flex items-center justify-center">
-            <Briefcase className="w-8 h-8 text-secondary-foreground" />
+            <Briefcase className="w-8 h-8 text-primary" />
           </div>
           <h2 className="font-display text-5xl font-bold">EXPERIENCE</h2>
         </div>
