@@ -4,7 +4,7 @@ import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 py-20 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center px-6 py-20 relative overflow-hidden pt-32">
       {/* Geometric background elements */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-10 w-32 h-32 border-4 border-secondary/20 rotate-12"></div>
