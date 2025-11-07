@@ -8,11 +8,13 @@ const experiences = [
     location: "Remote",
     period: "Oct 2022 – Present",
     achievements: [
-      "Lead a team of 6 (2 seniors, 2 juniors, 2 UX designers) delivering high-quality web and mobile apps.",
-      "Directed React Native re-platforming, generating $1M revenue within 3 months.",
-      "Established a unified design system adopted across 3 core products.",
-      "Improved test coverage by 22% and cut manual QA time by 25% through Cypress adoption.",
-      "Implemented CI/CD pipelines reducing deployment time and boosting release velocity.",
+      "Lead a team of senior frontend engineers and designers delivering high-quality web and mobile applications",
+      "Directed React Native re-platforming, generating $2M+ in donations within 6 months.",
+      "Established a unified design system adopted across core products.",
+      "Contributed to the hiring and onboarding process which includes documentation",
+      "Implemented CI/CD pipelines reducing deployment time and boosting release velocity",
+      "Conduct monthly 1-on-1's, performance reviews and provided development opportunities for direct reports",
+      "Fostered mentorship culture through code reviews and team workshops",
     ],
   },
   {
@@ -21,10 +23,10 @@ const experiences = [
     location: "Remote",
     period: "Jun 2021 – Oct 2022",
     achievements: [
-      "Directed design system development for FordPro, improving modularity, maintainability, and performance.",
-      "Drove product improvements using analytics and user feedback to align development with client goals.",
-      "Enhanced UX through design-driven improvements, resulting in measurable gains in satisfaction.",
-      "Collaborated with product and design teams to streamline cross-framework design system onboarding for 15 developers.",
+      "Directed design system development for FordPro, improving modularity, maintainability, and performance",
+      "Drove product improvements using analytics and user feedback to align development with client goals",
+      "Enhanced UX through design-driven improvements, resulting in measurable gains in satisfaction",
+      "Collaborated with product and design teams to streamline cross-framework design system onboarding for 15 developers",
     ],
   },
   {
@@ -33,10 +35,10 @@ const experiences = [
     location: "Mechanicsburg, PA",
     period: "Jun 2019 – Apr 2021",
     achievements: [
-      "Directed Angular modernization project completed in 9 months, boosting dev efficiency.",
-      "Cut a 3-hour daily rate-scheduling process down to 3 clicks via UI automation.",
-      "Reduced loan system load time from 6 minutes to near-instant, improving team productivity.",
-      "Partnered with business teams to align tech delivery with product goals.",
+      "Directed Angular modernization project completed in 9 months, boosting dev efficiency",
+      "Cut a 3-hour daily rate-scheduling process down to 3 clicks via UI automation",
+      "Reduced loan system load time from 6 minutes to near-instant, improving team productivity",
+      "Partnered with business teams to align tech delivery with product goals",
     ],
   },
   {
@@ -45,10 +47,10 @@ const experiences = [
     location: "Pittsburgh, PA",
     period: "Dec 2018 – Jun 2019",
     achievements: [
-      "Developed cross-platform solutions using Angular, .NET, C#, ColdFusion, and Visual Basic.",
-      "Engineered a secure streaming app for video uploads/downloads, increasing user engagement.",
-      "Built marketing API integrations and custom GUIs to streamline content creation workflows.",
-      "Modernized legacy systems and designed intuitive user interfaces to improve adoption and satisfaction.",
+      "Developed cross-platform solutions using Angular, .NET, C#, ColdFusion, and Visual Basic",
+      "Engineered a secure streaming app for video uploads/downloads, increasing user engagement",
+      "Built marketing API integrations and custom GUIs to streamline content creation workflows",
+      "Modernized legacy systems and designed intuitive user interfaces to improve adoption and satisfaction",
     ],
   },
 ];
