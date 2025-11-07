@@ -3,7 +3,7 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Frontend Development Manager",
+    title: "Senior Frontend Engineering Manager",
     company: "Softerware",
     location: "Remote",
     period: "Oct 2022 – Present",
