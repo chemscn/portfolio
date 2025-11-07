@@ -27,7 +27,7 @@ const handler = async (req: Request): Promise<Response> => {
     console.log(`Processing contact form submission from ${firstName} ${lastName} (${email})`);
 
     const emailResponse = await resend.emails.send({
-      from: "Portfolio Contact <onboarding@resend.dev>",
+      from: "Portfolio Contact <dnatechforge@gmail.com>",
       to: ["drkarm123@gmail.com"],
       reply_to: email,
       subject: `Portfolio Contact from ${firstName} ${lastName}`,
