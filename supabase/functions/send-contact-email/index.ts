@@ -17,6 +17,9 @@ interface ContactEmailRequest {
 
 const handler = async (req: Request): Promise<Response> => {
   // Handle CORS preflight requests
+  const isDev = process.env.NODE_ENV === 'development';
+
+	const sender = isDev ? 'onboarding@resend.dev' : 'requests@chemscn.github.io';
   if (req.method === "OPTIONS") {
     return new Response(null, { headers: corsHeaders });
   }
@@ -27,7 +30,7 @@ const handler = async (req: Request): Promise<Response> => {
     console.log(`Processing contact form submission from ${firstName} ${lastName} (${email})`);
 
     const emailResponse = await resend.emails.send({
-      from: "Portfolio Contact <dnatechforge@gmail.com>",
+      from: sender,
       to: ["drkarm123@gmail.com"],
       reply_to: email,
       subject: `Portfolio Contact from ${firstName} ${lastName}`,
