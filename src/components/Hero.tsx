@@ -61,7 +61,7 @@ const Hero = () => {
               className="gap-2 border-2"
               asChild
             >
-              <a href="/resume.pdf" download="Diyar_Karim_Resume.pdf">
+              <a href="/resume.pdf" download="resume.pdf">
                 <Download className="w-5 h-5" />
                 Download Resume
               </a>
